@@ -19,6 +19,7 @@ import CustomeCard from '../components/CustomeCard';
 
 import {launchImageLibrary} from 'react-native-image-picker';
 
+//firebase imports
 import {storage, db} from '../config/firebase.config';
 import {ref, uploadBytesResumable, getDownloadURL} from 'firebase/storage';
 import {collection, addDoc, getDocs} from 'firebase/firestore';
